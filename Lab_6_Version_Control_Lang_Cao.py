@@ -28,6 +28,7 @@ while running:
         print(f"The encoded password is {encpass}, and the original password is {decode(encpass)}")
     elif option == "3":
         running = False
+    print()
 
         
     
