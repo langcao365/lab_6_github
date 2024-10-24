@@ -3,7 +3,7 @@ def encode(passwd):
     for c in passwd:
         newc = str((int(c) + 3) % 10)
         data.append(newc)
-    return "".join(newc)
+    return "".join(data)
 
 def decode(passwd):
     pass
